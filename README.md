@@ -163,7 +163,7 @@ https://unity.com/products/machine-learning-agents
     }
     
    
-   It looks easy but i had a bad figuring this out;
+   It looks easy but i had a bad time figuring this out;
    
    With this i finally got the Agent to move based on DiscreteActions and now a jumping action wasn't to difficult to do, in fact realizing this allows me to use any key as input to be honest. The problem is that smooth moving doesn't come with ints, and the free look around was now gone, i couldn't figure out how to rotate the view and the movement at the same time, so moveX 1 is always right but in a world space view, not your relative right.
    
