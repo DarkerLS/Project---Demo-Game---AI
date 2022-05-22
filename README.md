@@ -190,7 +190,7 @@ https://unity.com/products/machine-learning-agents
     
   The floor is stored as a prefab, so it doesn't have to be in the scene and i only have to change it once for it to change everywhere it is referenced, just to say that the prefab has 5 spawn points (which are just empty objects with a script in this case), so one for each end of the square and one in the center, the one in the center i called spawnPointC, hence CLister, but this one has the CLister script associated to it to make a list of C points in the grid. The other 4 have the WallSpawner Script associated to them to make a wall spawn or not.
   The CLister script sends the list to the GoalSpawner script, that's all it does;
-  The WallSpawner script accepts one GameObject and calculates if it is spawned or not based on it's 1/8 % chance to spawn. This is really low but it will look more like a 1/4 spawn chance as in most places of the grid there are actually 2 spawnPoints (as the floorsquares end and begin immediately one after another);
+  The WallSpawner script accepts one GameObject and calculates if it is spawned or not based on it's 1/8 chance to spawn. This is really low but it will look more like a 1/4 spawn chance as in most places of the grid there are actually 2 spawnPoints (as the floorsquares end and begin immediately one after another);
   
     GoalSpawner.cs
    
