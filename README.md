@@ -388,7 +388,11 @@ HOW THIS ALL WORKS?
   
       [INFO] Hyperparameters for behavior name AgentBasic
   
-  If there isn't one it will use default hyperparameters, but this is the file that regulates the policies of the behavior and allows you to change from Reinforcement Learning to Imitation Learning. To select a specific one use:
+  If there isn't one it will use default hyperparameters, but this is the file that regulates the policies of the behavior and allows you to change from Reinforcement Learning to Imitation Learning. 
+  
+  *NOTE that in your editor the behavior parameters script has a field for name and this needs to be equal to the behavior name in the config file*
+  
+  To select a specific one use:
   
   
     mlagents-learn configpath/filename.yml
