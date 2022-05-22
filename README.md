@@ -209,7 +209,7 @@ https://unity.com/products/machine-learning-agents
     
   So the ScoreManager script is associated to the UI and accepts 2 text type variables to update on screen the score of P1 and AI, here are 4 functions, 2 for each, and one to take and one to add points;
   
-  *NOTE this scoring system isn't according to the AddReward() function on the Agent script which i'll talk about later, but it was only as a testing method as the UI isn't fully ready now;*
+  *NOTE this scoring system isn't according to the AddReward() or SetReward() function on the Agent script which i'll talk about later, but it was only as a testing method as the UI isn't fully ready now;*
   
   
   
