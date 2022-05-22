@@ -468,7 +468,7 @@ HOW THIS ALL WORKS?
   
   That's not the end, as in this specific scene that wasn't possible, in the other scene i could do that and i did and brainmodels are good; Here i get an error Concat_81 on the tensor creation logic, that means pytorch can't assemble the brain model correctly because somewhere in it's calculation it cannot join 2 tensor datatypes as one and proceed; I don't why this happens, but i lost faith at this point, it might all be because it the scene is as random as it can be and there aren't really any patterns, still a possible game for multiplayer P1 vs P2, but as it stands now, i can train AI but not really in complex scenes;
   
-  I mentioned that there would be another objective not achievable from the start, and that is exactly that, the model would be backed into the game if i would make is as an executable and not only inside the editor, so my progressive Imitation Learning in which i wanted to use any player's session in game to get demo files for imitation learning isn't possible;
+  I mentioned that there would be another objective not achievable from the start, and that is exactly that, the model would be backed into the game if i would make it as an executable and not only inside the editor, so my progressive Imitation Learning in which i wanted to use any and every player's session in game to get demo files for imitation learning isn't possible;
   
 
 That's what the adventure was;
